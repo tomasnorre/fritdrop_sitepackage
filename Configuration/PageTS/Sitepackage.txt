@@ -1,0 +1,7 @@
+###
+### PageTS for Fritdrop
+###
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fritdrop/Configuration/PageTS/RTE.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fritdrop/Configuration/PageTS/TCEFORM.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fritdrop/Configuration/PageTS/TCEMAIN.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fritdrop/Configuration/PageTS/mod/WebLayout/RTE/BackendLayouts.txt">
