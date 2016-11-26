@@ -1,5 +1,5 @@
 {
-    "name": "tomasnorre/fritdrop",
+    "name": "tomasnorre/fritdrop_sitepackage",
     "type": "typo3-cms-extension",
     "description": "Base extension for project fritdrop",
     "homepage": "http://www.fritdrop.dk",
