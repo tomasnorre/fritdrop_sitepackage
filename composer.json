@@ -1,0 +1,54 @@
+{
+  "name": "tomasnorre/fritdrop_base",
+  "type": "typo3-cms-extension",
+  "description": "Base extension for fritdrop",
+  "license": ["GPL-2.0+"],
+  "version": "1.0.0",
+  "minimum-stability": "dev",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://composer.typo3.org/"
+    }
+  ],
+  "require": {
+    "typo3/cms": ">=7.6.0,<8.9.99",
+    "bk2k/bootstrap-package": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.7.0"
+  },
+  "authors": [
+    {
+      "name": "Tomas Norre Mikkelsen",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "TNM\\GolfCourses\\": "Classes",
+      "TNM\\GolfCourses\\Tests\\": "Tests",
+      "TYPO3\\CMS\\Core\\Tests\\": ".Build/vendor/typo3/cms/typo3/sysext/core/Tests/"
+    }
+  },
+  "config": {
+    "vendor-dir": ".Build/vendor",
+    "bin-dir": ".Build/bin"
+  },
+  "scripts": {
+    "post-autoload-dump": [
+      "mkdir -p .Build/Web/typo3conf/ext/",
+      "[ -L .Build/Web/typo3conf/ext/fritdrop_base ] || ln -snvf ../../../../. .Build/Web/typo3conf/ext/fritdrop_base",
+      "export TYPO3_PATH_WEB=$PWD/.Build/Web"
+    ]
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    },
+    "typo3/cms": {
+      "cms-package-dir": "{$vendor-dir}/typo3/cms",
+      "web-dir": ".Build/Web"
+    }
+  }
+}
