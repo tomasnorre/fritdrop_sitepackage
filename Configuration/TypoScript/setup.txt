@@ -7,7 +7,7 @@
 ################
 #### HELPER ####
 ################
-<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fritdrop/Configuration/TypoScript/Helper/DynamicContent.txt">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:fritdrop_sitepackage/Configuration/TypoScript/Helper/DynamicContent.txt">
 
 
 ##############
@@ -41,7 +41,7 @@ lib.navigation {
 page = PAGE
 page {
     typeNum = 0
-    shortcutIcon = EXT:fritdrop/Resources/Public/Icons/favicon.ico
+    shortcutIcon = EXT:fritdrop_sitepackage/Resources/Public/Icons/favicon.ico
 
     10 = FLUIDTEMPLATE
     10 {
@@ -59,15 +59,15 @@ page {
         }
 
         templateRootPaths {
-            0 = EXT:fritdrop/Resources/Private/Templates/Page/
+            0 = EXT:fritdrop_sitepackage/Resources/Private/Templates/Page/
             1 = {$page.fluidtemplate.templateRootPath}
         }
         partialRootPaths {
-            0 = EXT:fritdrop/Resources/Private/Partials/Page/
+            0 = EXT:fritdrop_sitepackage/Resources/Private/Partials/Page/
             1 = {$page.fluidtemplate.partialRootPath}
         }
         layoutRootPaths {
-            0 = EXT:fritdrop/Resources/Private/Layouts/Page/
+            0 = EXT:fritdrop_sitepackage/Resources/Private/Layouts/Page/
             1 = {$page.fluidtemplate.layoutRootPath}
         }
     }
@@ -140,7 +140,7 @@ page {
     }
 
     includeCSS {
-        fritdrop_layout = EXT:fritdrop/Resources/Public/Css/layout.min.css
+        fritdrop_layout = EXT:fritdrop_sitepackage/Resources/Public/Css/layout.min.css
     }
 
     includeJSLibs {
@@ -148,7 +148,7 @@ page {
     }
 
     includeJSFooter {
-        fritdrop_scripts = EXT:fritdrop/Resources/Public/JavaScript/Dist/scripts.js
+        fritdrop_scripts = EXT:fritdrop_sitepackage/Resources/Public/JavaScript/Dist/scripts.js
     }
 }
 
@@ -184,8 +184,8 @@ config {
     noScaleUp = 1
 
     // Compression and Concatenation of CSS and JS Files
-    compressJs = 0
-    compressCss = 0
-    concatenateJs = 0
-    concatenateCss = 0
+    compressJs = 1
+    compressCss = 1
+    concatenateJs = 1
+    concatenateCss = 1
 }

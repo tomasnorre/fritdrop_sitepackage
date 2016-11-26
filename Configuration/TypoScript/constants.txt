@@ -9,9 +9,9 @@
 ##############################
 styles {
     templates {
-        layoutRootPath = EXT:fritdrop/Resources/Private/Layouts/ContentElements/
-        partialRootPath = EXT:fritdrop/Resources/Private/Partials/ContentElements/
-        templateRootPath = EXT:fritdrop/Resources/Private/Templates/ContentElements/
+        layoutRootPath = EXT:fritdrop_sitepackage/Resources/Private/Layouts/ContentElements/
+        partialRootPath = EXT:fritdrop_sitepackage/Resources/Private/Partials/ContentElements/
+        templateRootPath = EXT:fritdrop_sitepackage/Resources/Private/Templates/ContentElements/
     }
 }
 
@@ -21,9 +21,9 @@ styles {
 ############
 page {
      fluidtemplate {
-        layoutRootPath = EXT:fritdrop/Resources/Private/Layouts/Page/
-        partialRootPath = EXT:fritdrop/Resources/Private/Partials/Page/
-        templateRootPath = EXT:fritdrop/Resources/Private/Templates/Page/
+        layoutRootPath = EXT:fritdrop_sitepackage/Resources/Private/Layouts/Page/
+        partialRootPath = EXT:fritdrop_sitepackage/Resources/Private/Partials/Page/
+        templateRootPath = EXT:fritdrop_sitepackage/Resources/Private/Templates/Page/
     }
     meta {
         description =
@@ -49,8 +49,8 @@ page {
 config {
     no_cache = 0
     removeDefaultJS = 0
-    admPanel = 1
+    admPanel = 0
     prefixLocalAnchors = all
-    headerComment = build by sitepackagebuilder.com
+    #headerComment = build by sitepackagebuilder.com
     sendCacheHeaders = 1
 }
