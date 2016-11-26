@@ -1,7 +1,7 @@
 {
-  "name": "tomasnorre/fritdrop_base",
+  "name": "tomasnorre/fritdrop_sitepackage",
   "type": "typo3-cms-extension",
-  "description": "Base extension for fritdrop",
+  "description": "Site packages for fritdrop",
   "license": ["GPL-2.0+"],
   "version": "1.0.0",
   "minimum-stability": "dev",
@@ -38,7 +38,7 @@
   "scripts": {
     "post-autoload-dump": [
       "mkdir -p .Build/Web/typo3conf/ext/",
-      "[ -L .Build/Web/typo3conf/ext/fritdrop_base ] || ln -snvf ../../../../. .Build/Web/typo3conf/ext/fritdrop_base",
+      "[ -L .Build/Web/typo3conf/ext/fritdrop_sitepackage ] || ln -snvf ../../../../. .Build/Web/typo3conf/ext/fritdrop_sitepackage",
       "export TYPO3_PATH_WEB=$PWD/.Build/Web"
     ]
   },

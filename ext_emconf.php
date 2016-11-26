@@ -1,10 +1,10 @@
 <?php
 
 /************************************************************************
- * Extension Manager/Repository config file for ext "fritdrop_base".
+ * Extension Manager/Repository config file for ext "fritdrop_sitepackage".
  ************************************************************************/
 $EM_CONF[$_EXTKEY] = array(
-    'title' => 'Fritdrop Base',
+    'title' => 'Fritdrop Site Packages',
     'description' => '',
     'category' => 'templates',
     'constraints' => array(
