@@ -15,12 +15,15 @@ styles {
     }
 }
 
-
 ############
 ### PAGE ###
 ############
 page {
-     fluidtemplate {
+    logo {
+        # cat=bootstrap package: basic/110/100; type=string; label=Logo: Leave blank to use website title from template instead
+        file = fileadmin/dannebrog.jpg
+    }
+    fluidtemplate {
         layoutRootPath = EXT:bootstrap_package/Resources/Private/Layouts/Page/
         partialRootPath = EXT:bootstrap_package/Resources/Private/Partials/Page/
         templateRootPath = EXT:bootstrap_package/Resources/Private/Templates/Page/
