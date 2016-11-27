@@ -5,5 +5,8 @@
     "homepage": "http://www.fritdrop.dk",
     "license": ["GPL-2.0+"],
     "keywords": ["TYPO3 CMS"],
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "require": {
+        "bk2k/bootstrap-package": "*"
+    }
 }
