@@ -9,9 +9,9 @@
 ##############################
 styles {
     templates {
-        layoutRootPath = EXT:fritdrop_sitepackage/Resources/Private/Layouts/ContentElements/
-        partialRootPath = EXT:fritdrop_sitepackage/Resources/Private/Partials/ContentElements/
-        templateRootPath = EXT:fritdrop_sitepackage/Resources/Private/Templates/ContentElements/
+        layoutRootPath = EXT:bootstrap_package/Resources/Private/Layouts/ContentElements/
+        partialRootPath = EXT:bootstrap_package/Resources/Private/Partials/ContentElements/
+        templateRootPath = EXT:bootstrap_package/Resources/Private/Templates/ContentElements/
     }
 }
 
@@ -21,9 +21,9 @@ styles {
 ############
 page {
      fluidtemplate {
-        layoutRootPath = EXT:fritdrop_sitepackage/Resources/Private/Layouts/Page/
-        partialRootPath = EXT:fritdrop_sitepackage/Resources/Private/Partials/Page/
-        templateRootPath = EXT:fritdrop_sitepackage/Resources/Private/Templates/Page/
+        layoutRootPath = EXT:bootstrap_package/Resources/Private/Layouts/Page/
+        partialRootPath = EXT:bootstrap_package/Resources/Private/Partials/Page/
+        templateRootPath = EXT:bootstrap_package/Resources/Private/Templates/Page/
     }
     meta {
         description =
