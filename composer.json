@@ -6,7 +6,13 @@
     "license": ["GPL-2.0+"],
     "keywords": ["TYPO3 CMS"],
     "version": "1.0.0",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/benjaminkott/bootstrap_package.git"
+        }
+    ],
     "require": {
-        "bk2k/bootstrap-package": "*"
+        "bk2k/bootstrap-package": "@dev"
     }
 }

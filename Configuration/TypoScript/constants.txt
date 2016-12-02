@@ -21,7 +21,7 @@ styles {
 page {
     logo {
         # cat=bootstrap package: basic/110/100; type=string; label=Logo: Leave blank to use website title from template instead
-        file = fileadmin/dannebrog.jpg
+        file =
     }
     fluidtemplate {
         layoutRootPath = EXT:bootstrap_package/Resources/Private/Layouts/Page/
@@ -36,6 +36,22 @@ page {
         robots = index,follow
         apple-mobile-web-app-capable = no
         compatible = IE=edge
+    }
+    theme {
+        footersection {
+            # cat=bootstrap package: basic/166/129; type=boolean; label=FooterSection: Enable to display the FooterSection at bottom
+            enable = 1
+        }
+        copyright {
+            # cat=bootstrap package: basic/169/120; type=boolean; label=Copyright: Enable to display the copyright
+            enable = 0
+            # cat=bootstrap package: basic/169/121; type=string; label=Copyright Text
+            text =
+        }
+        language {
+            # cat=bootstrap package: basic/168/language_enable; type=boolean; label=Language: Enable to display the language menu
+            enable = 0
+        }
     }
     tracking {
         google {
@@ -54,6 +70,5 @@ config {
     removeDefaultJS = 0
     admPanel = 0
     prefixLocalAnchors = all
-    #headerComment = build by sitepackagebuilder.com
     sendCacheHeaders = 1
 }
