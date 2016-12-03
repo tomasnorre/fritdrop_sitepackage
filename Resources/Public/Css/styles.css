@@ -1,16 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Play');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Play', serif;
+}
+
 #content a {
-	color: orange;
-	text-decoration: underline;
+  color: orange;
+  text-decoration: underline;
 }
 
 #content a:hover,
 #content a:focus {
-	color: forestgreen;
+  color: forestgreen;
 }
 
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
-	background-color: #eeeeee;
-	border-color: forestgreen;
+  background-color: #eeeeee;
+  border-color: forestgreen;
 }
