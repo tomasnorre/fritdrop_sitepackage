@@ -25,3 +25,7 @@ h6 {
   background-color: #eeeeee;
   border-color: forestgreen;
 }
+
+.frame.well *:first-child {
+  padding-top: 8px;
+}
