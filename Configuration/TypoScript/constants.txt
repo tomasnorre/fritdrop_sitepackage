@@ -24,23 +24,24 @@ page {
         file = EXT:fritdrop_sitepackage/Resources/Public/Images/golfer.png
     }
     fluidtemplate {
-        layoutRootPath = EXT:bootstrap_package/Resources/Private/Layouts/Page/
+        layoutRootPath = EXT:fritdrop_sitepackage/Resources/Private/Layouts/Page/
         partialRootPath = EXT:bootstrap_package/Resources/Private/Partials/Page/
         templateRootPath = EXT:bootstrap_package/Resources/Private/Templates/Page/
     }
     meta {
         description =
-        author =
-        keywords =
+        author = Tomas Norre Mikkelsen
+        keywords = golf, mizuno, titleist, nike, taylormade, daneingermany, lovelife, mainz, mainzer golfclub, aabybro golfclub
         viewport = width=device-width, initial-scale=1
         robots = index,follow
         apple-mobile-web-app-capable = no
         compatible = IE=edge
+        google = notranslate
     }
     theme {
         footersection {
             # cat=bootstrap package: basic/166/129; type=boolean; label=FooterSection: Enable to display the FooterSection at bottom
-            enable = 1
+            enable = 0
         }
         copyright {
             # cat=bootstrap package: basic/169/120; type=boolean; label=Copyright: Enable to display the copyright

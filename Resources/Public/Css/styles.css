@@ -1,0 +1,16 @@
+#content a {
+	color: orange;
+	text-decoration: underline;
+}
+
+#content a:hover,
+#content a:focus {
+	color: forestgreen;
+}
+
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+	background-color: #eeeeee;
+	border-color: forestgreen;
+}

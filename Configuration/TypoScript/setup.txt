@@ -34,7 +34,6 @@ lib.navigation {
     }
 }
 
-
 ##############
 #### PAGE ####
 ##############
@@ -141,6 +140,7 @@ page {
 
     includeCSS {
         fritdrop_layout = EXT:fritdrop_sitepackage/Resources/Public/Css/layout.min.css
+        fritdrop_styles = EXT:fritdrop_sitepackage/Resources/Public/Css/styles.css
     }
 
     includeJSLibs {
