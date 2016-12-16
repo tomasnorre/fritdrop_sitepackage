@@ -14,5 +14,16 @@
     ],
     "require": {
         "bk2k/bootstrap-package": "@dev"
+    },
+    "authors": [
+        {
+            "name": "Tomas Norre Mikkelsen",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TNM\\FritdropSitepackage\\": "Classes"
+        }
     }
 }
