@@ -1,5 +1,5 @@
 <?php
-namespace TNM\FritdropSitePackage\Utility;
+namespace TNM\FritdropSitepackage\Utility;
 
 /***************************************************************
  *  Copyright notice
